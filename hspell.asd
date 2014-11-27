@@ -9,7 +9,7 @@
 (asdf:defsystem #:hspell
   :description "Hspell bindings for Common Lisp."
   :author "death <github.com/death>"
-  :license "BSD"
+  :license "MIT"
   :depends-on (#:cffi #:babel #:trivial-garbage)
   :serial t
   :components

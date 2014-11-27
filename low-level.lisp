@@ -57,6 +57,14 @@
 (defcfun corlist-free :int
   (corlist :pointer))
 
+(defbitfield prefix-bits
+  (:b 1)
+  (:l 2)
+  (:verb 4)
+  (:nondef 8)
+  (:imper 16)
+  (:misc 32))
+
 (defcfun hspell-enum-splits :int
   (dict :pointer)
   (word :string)
