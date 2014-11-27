@@ -10,7 +10,7 @@
   :description "Hspell bindings for Common Lisp."
   :author "death <github.com/death>"
   :license "MIT"
-  :depends-on (#:cffi #:babel #:trivial-garbage)
+  :depends-on (#:cffi #:trivial-garbage)
   :serial t
   :components
   ((:file "packages")
