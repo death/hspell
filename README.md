@@ -16,6 +16,15 @@ HSPELL> (canonic-gimatria-p "תרס\"ו")
 666
 ```
 
+# Note
+
+You may need to compile `hspell` in order to create a shared object:
+
+
+```sh
+$ ./configure --enable-shared && PERL5LIB=. make
+```
+
 # License
 
 MIT
