@@ -20,6 +20,6 @@
    #:*hspell*
    #:correct-spelling-p
    #:correct-spelling
-   #:canonic-gimetria-p
+   #:canonic-gimatria-p
    #:dictionary-path
    #:word-splits))
